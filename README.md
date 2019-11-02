@@ -5,5 +5,5 @@ For example, takes a directory of images of people and a frontal face haar casca
 Example Usage:
 
 <code>
-  python3 haar_dataset_creation --root_dir ./people_dataset --save_dir ./face_dataset --max_images 1000
+  python3 haar_dataset_creation --root_dir ./people_dataset --save_dir ./face_dataset --max_images 1000 --cascade_dir haarcascade_frontalface_default.xml
  </code>
